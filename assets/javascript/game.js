@@ -59,9 +59,9 @@ document.onkeyup = function(){
             var yourguesses = "<p>Your guesses: " + lettersGuessed + "</p>"
       
 
-   console.log(wins);
-   console.log(losses);
-   console.log(guessesleft);
+		   console.log(wins);
+		   console.log(losses);
+		   console.log(guessesleft);
 
             document.querySelector('#wins').innerHTML = addedwins;
             document.querySelector('#losses').innerHTML = loser;
